@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dynamic Resume Builder" />
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Resume Builder</h1>
+
+      <!-- Form to input resume details -->
+      <form id="resumeForm">
+        <h2>Personal Information</h2>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" placeholder="Enter full name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email" required />
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" placeholder="Enter phone number" required />
+
+        <h2>Education</h2>
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" placeholder="Enter degree" required />
+
+        <label for="institution">Institution:</label>
+        <input type="text" id="institution" placeholder="Enter institution" required />
+
+        <label for="year">Year:</label>
+        <input type="text" id="year" placeholder="Enter year" required />
+
+        <h2>Experience</h2>
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" placeholder="Enter job title" required />
+
+        <label for="jobDescription">Job Description:</label>
+        <textarea id="jobDescription" placeholder="Describe your role"></textarea>
+
+        <h2>Skills</h2>
+        <input type="text" id="skill1" placeholder="Enter skill" required />
+
+        <label for="skillLevel1">Skill Level (out of 100):</label>
+        <input type="number" id="skillLevel1" max="100" min="0" value="" required />
+
+        <button type="submit">Generate Resume</button>
+      </form>
+
+      <!-- Resume Display -->
+      <div id="resumeDisplay" class="resume hidden">
+        <header>
+          <h1 id="displayFullName"></h1>
+          <p id="displayEmail"></p>
+          <p id="displayPhone"></p>
+        </header>
+
+        <section id="educationDisplay">
+          <h2>Education</h2>
+          <p id="displayDegree"></p>
+          <p id="displayInstitution"></p>
+          <p id="displayYear"></p>
+        </section>
+
+        <section id="experienceDisplay">
+          <h2>Experience</h2>
+          <h3 id="displayJobTitle"></h3>
+          <p id="displayJobDescription"></p>
+        </section>
+
+        <section id="skillsDisplay">
+          <h2>Skills</h2>
+          <p id="displaySkill1"></p>
+        </section>
+
+        <button id="editButton">Edit</button>
+      </div>
+    </div>
+  </body>
+</html>

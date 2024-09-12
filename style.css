@@ -1,0 +1,143 @@
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #ECF0F1;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ECF0F1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(20, 180, 244, 0.1);
+}
+
+h1 {
+  text-align: center;
+ 
+  
+}
+
+form label {
+  display: block;
+  margin-top: 20px;
+ 
+  
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #3498DB;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.hidden {
+  display: none;
+}
+
+.resume {
+  margin-top: 10px;
+  background-color: #ECF0F1;
+  border-radius: 8px;
+}
+
+.resume h1, .resume p {
+  margin: 0 0 10px;
+}
+
+
+
+
+
+/* something next */
+
+/* General Styles for Resume Display */
+#resumeDisplay {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the resume */
+  border: 1px solid #dcdcdc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark text color */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #083667; /* Slate Gray for header */
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 5px 0;
+  color: #333;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9; /* Light gray background for sections */
+  border-radius: 6px; /* Rounded corners */
+  border: 1px solid #e0e0e0; /* Light border */
+}
+
+section h2 {
+  font-size: 1.8em;
+  color: #083667; /* Slate Gray for section headers */
+  border-bottom: 2px solid #083667; /* Underline */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 1.1em;
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+button#editButton {
+  display: block;
+  width: 100%;
+  background-color: #143b66; /* Electric Blue */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button#editButton:hover {
+  background-color: #1e2f40; /* Darker Electric Blue */
+}
+
+.hidden {
+  display: none;
+}
